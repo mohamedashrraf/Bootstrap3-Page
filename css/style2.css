@@ -1,0 +1,417 @@
+
+body{
+    padding-top: 70px;
+}
+/*navbar*/
+.navbar
+{
+    min-height: 70px;
+    
+}
+.navbar-inverse .navbar-nav > li > a {
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar-inverse, .navbar-inverse .navbar-nav > li > a
+{
+    font-size: 19px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-brand span{
+    color:  rgb(196, 113, 207);
+}
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color: rgb(196, 113, 207);
+    
+}
+
+/*nav items*/
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a
+{
+    color: rgb(196, 196, 196);
+}
+
+/*dropdown link*/
+.dropdown-menu
+{
+    background-color: rgb(29, 28, 28);
+    border-top: 2px solid rgb(196, 113, 207);
+    min-width: 200px;
+
+}
+
+.dropdown-menu > li > a
+{
+    color: rgb(196, 196, 196);
+    transition: padding 0.5s ease;
+    -webkit-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    background-color: rgb(196, 113, 207);
+    padding-left:25px;
+}
+/*تخلي المينو تبدا من الشمال لليمين*/
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu .divider
+{
+    background-color: rgb(172, 100, 182);
+}
+
+/* حجم الخصائص في الموبايل*/
+.navbar-toggle {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+/*14*/
+
+activeitem, .item img{
+    width: 1800px;
+    max-height: 400px;
+}
+
+.carousel-caption{
+    bottom: 40px;
+    background: rgba(17, 17, 17, 0.3); /* الخان الرابعة للشفافية ال opacity*/
+}
+
+.carousel-indicators{
+    margin-bottom: 2px;
+}
+.carousel-control{
+    bottom: 17px;
+}
+
+
+/*15*/
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about .lead{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+/*16*/
+.features{
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features h1{
+    padding-bottom: 10px;
+}
+.features .feat{
+    line-height: 30px;
+}
+.features .glyphicon{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+/*17*/
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials .item{
+    line-height: 2em;
+}
+.testimonials .carousel-indicators{
+    margin-top: 10px;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials span{
+    color:rgb(196, 113, 207);
+}
+
+/*19*/
+
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(196, 113, 207);   
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+    filter: alpha(opacity=100); /*للانترنت اكسبلورر*/
+    width: 80px;
+    height: 80px;
+}
+.testimonials .carousel-indicators li img{
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+
+/*20*/
+.price_table{
+    background-color: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price_table h1{
+    margin-bottom: 40px;
+}
+.price_table .price_box{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+.price_table .price_box h2{
+    margin: 5px 0 15px;
+}
+.price_table .price_box p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;  /*تخلي لديف دايرة*/
+    background-color: #f3f3f3;
+    line-height: 100px; /*توسطن الكلام جوه الديف*/
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.price_table .price_box:hover p{  /*لما اروح عند البوكس يعمل حاجة في ال p*/
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 4px solid #FFF;
+}
+.price_table .price_box ul{
+    line-height: 250%;
+    font-size: 18px;
+}
+
+
+/*22*/
+.our_team{
+    background:url("../9.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+}
+.our_team .team{
+    background: rgba(2,2,2,0.75);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our_team h1{
+    margin-bottom: 60px;
+}
+.our_team img{
+    width: 200px;
+    height: 200px;
+}
+.our_team .memb{
+    margin-bottom: 40px;
+}
+
+
+/*25*/
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.subscribe h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    margin-bottom: 30px;
+}
+.subscribe .form-control{
+    margin-right: -5px;
+    border-radius: 0;
+    width: 300px;
+}
+.subscribe button{
+    border-radius: 0;
+}
+
+
+/*26*/
+.statistics{}
+.statistics h1{
+    margin-bottom: 60px;
+}
+.statistics p{
+    font-size: 60px;
+    font-weight: 800;
+}
+.statistics .data{
+    background-color: rgba(2,2,2,0.7);
+    color: #B6B5B5;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.statistics .stats{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+}
+.statistics .stats:hover{
+    color: #FFF;
+}
+
+
+
+/*28*/
+.skills{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.skills h1{
+    margin-bottom: 60px;
+}
+.skills h3{
+    margin-top: 0px;
+    font-weight: bold;
+}
+.skills .progress{
+    height: 36px;
+}
+.skills .progress-bar{
+    line-height: 36px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+
+
+/*29*/
+.contactus .field{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #DDD;
+    background: rgba(2,2,2,0.7);
+    min-height: 300px;
+}
+.contactus h1{
+    margin-bottom: 30px;
+}
+.contactus p{
+    margin-bottom: 40px;
+}
+.contactus textarea{
+    height: 108px;
+}
+.contactus input[type="text"],
+.contactus textarea{
+    background: rgba(2,2,2,0);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius:0;
+}
+
+
+
+/*31*/
+.footer{
+    padding-top: 40px;
+    background: #333;
+    color: #AAA;
+}
+.footer .threecols{
+    overflow: hidden;
+}
+.footer .threecols li{
+    width: 33.3333%; /*يخلي كل 3 جنب بعض كل واحدة تاخد تلت المسافة*/
+    float: left;
+    padding: 5px 0;
+}
+.footer .social{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.footer .social li{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 3px;
+    opacity: 0.6;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+}
+.footer .social li .img-thumbnail {
+    background: #333;
+    border: none;
+}
+.footer .social li:hover{
+    opacity: 1;
+}
+
+
+
+/*32*/
+.media .img-thumbnail{
+    width: 70px;
+    height: 70px;
+    border: none;
+}
+.work .img-thumbnail{
+    width: 170px;
+    height: 120px;
+    border: none;
+    background: rgba(29, 29, 29, 0.2);
+    margin-bottom: 5px;
+}
+.footer .copy{
+    background-color: #111;
+    padding: 15px 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer .copy span{
+    color: rgb(172, 100, 182);
+}
